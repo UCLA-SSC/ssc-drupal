@@ -144,8 +144,7 @@ function node_tokens($type, $tokens, array $data = array(), array $options = arr
           break;
 
         case 'language':
-          $langcode = entity_language('node', $node);
-          $replacements[$original] = $sanitize ? check_plain($langcode) : $langcode;
+          $replacements[$original] = $sanitize ? check_plain($node->language) : $node->language;
           break;
 
         case 'url':

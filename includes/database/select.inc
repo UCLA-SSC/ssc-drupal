@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @addtogroup database
+ * @ingroup database
  * @{
  */
 
@@ -1609,5 +1609,5 @@ class SelectQuery extends Query implements SelectQueryInterface {
 }
 
 /**
- * @} End of "addtogroup database".
+ * @} End of "ingroup database".
  */

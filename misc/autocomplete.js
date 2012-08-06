@@ -99,12 +99,10 @@ Drupal.jsAC.prototype.onkeyup = function (input, e) {
       return true;
 
     default: // All other keys.
-      if (input.value.length > 0 && !input.readOnly) {
+      if (input.value.length > 0)
         this.populatePopup();
-      }
-      else {
+      else
         this.hidePopup(e.keyCode);
-      }
       return true;
   }
 };

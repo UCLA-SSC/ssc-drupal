@@ -16,11 +16,10 @@ var states = Drupal.states = {
  */
 Drupal.behaviors.states = {
   attach: function (context, settings) {
-    var $context = $(context);
     for (var selector in settings.states) {
       for (var state in settings.states[selector]) {
         new states.Dependent({
-          element: $context.find(selector),
+          element: $(selector),
           state: states.State.sanitize(state),
           constraints: settings.states[selector][state]
         });

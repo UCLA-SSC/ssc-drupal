@@ -41,7 +41,7 @@
  * $result = db_query_range('SELECT n.nid, n.title, n.created
  *   FROM {node} n WHERE n.uid = :uid', 0, 10, array(':uid' => $uid));
  * foreach ($result as $record) {
- *   // Perform operations on $record->title, etc. here.
+ *   // Perform operations on $node->title, etc. here.
  * }
  * @endcode
  * Curly braces are used around "node" to provide table prefixing via
@@ -987,9 +987,6 @@ abstract class DatabaseConnection extends PDO {
    *
    * @param $name
    *   Optional name of the savepoint.
-   *
-   * @return DatabaseTransaction
-   *   A DatabaseTransaction object.
    *
    * @see DatabaseTransaction
    */
@@ -2672,7 +2669,7 @@ function db_condition($conjunction) {
 
 
 /**
- * @addtogroup schemaapi
+ * @ingroup schemaapi
  * @{
  */
 
@@ -2989,7 +2986,7 @@ function db_change_field($table, $field, $field_new, $spec, $keys_new = array())
 }
 
 /**
- * @} End of "addtogroup schemaapi".
+ * @} End of "ingroup schemaapi".
  */
 
 /**

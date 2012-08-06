@@ -613,8 +613,7 @@ function field_info_fields() {
  * @return
  *   The field array, as returned by field_read_fields(), with an
  *   additional element 'bundles', whose value is an array of all the bundles
- *   this field belongs to keyed by entity type. NULL if the field was not
- *   found.
+ *   this field belongs to keyed by entity type.
  *
  * @see field_info_field_by_id()
  */
@@ -891,5 +890,5 @@ function field_info_storage_settings($type) {
 }
 
 /**
- * @} End of "defgroup field_info".
+ * @} End of "defgroup field_info"
  */

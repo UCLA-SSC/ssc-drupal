@@ -6,7 +6,7 @@
  */
 
 /**
- * @addtogroup database
+ * @ingroup database
  * @{
  */
 
@@ -515,5 +515,5 @@ class DatabaseStatement_sqlite extends DatabaseStatementPrefetch implements Iter
 }
 
 /**
- * @} End of "addtogroup database".
+ * @} End of "ingroup database".
  */

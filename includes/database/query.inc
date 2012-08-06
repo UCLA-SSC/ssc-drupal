@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @addtogroup database
+ * @ingroup database
  * @{
  */
 
@@ -1955,5 +1955,5 @@ class DatabaseCondition implements QueryConditionInterface, Countable {
 }
 
 /**
- * @} End of "addtogroup database".
+ * @} End of "ingroup database".
  */

@@ -60,6 +60,7 @@ function authorize_access_allowed() {
 // *** Real work of the script begins here. ***
 
 require_once DRUPAL_ROOT . '/includes/bootstrap.inc';
+require_once DRUPAL_ROOT . '/includes/session.inc';
 require_once DRUPAL_ROOT . '/includes/common.inc';
 require_once DRUPAL_ROOT . '/includes/file.inc';
 require_once DRUPAL_ROOT . '/includes/module.inc';

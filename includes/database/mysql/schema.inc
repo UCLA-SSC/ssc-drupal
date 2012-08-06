@@ -7,7 +7,7 @@
 
 
 /**
- * @addtogroup schemaapi
+ * @ingroup schemaapi
  * @{
  */
 
@@ -532,5 +532,5 @@ class DatabaseSchema_mysql extends DatabaseSchema {
 }
 
 /**
- * @} End of "addtogroup schemaapi".
+ * @} End of "ingroup schemaapi".
  */
